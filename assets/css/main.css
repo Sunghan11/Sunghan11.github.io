@@ -33,7 +33,7 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+li, ol, ul {
 	list-style: none;
 }
 
@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #6a737e;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #19547b 15%, #6a737e 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #19547b 15%, #6a737e 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #19547b 15%, #6a737e 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #19547b 15%, #6a737e 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -118,6 +118,7 @@ input, select, textarea {
 		}
 
 /* Type */
+	
 
 	body {
 		background-color: #935d8c;
@@ -212,6 +213,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -3069,6 +3071,10 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+	.spotlight span {
+		size
+	}
+
 /* Header */
 
 	#header {
@@ -3546,10 +3552,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #19547b, #6a737e, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #19547b, #6a737e, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #19547b, #6a737e, #8cc9f0);
+			background-image: linear-gradient(90deg, #19547b, #6a737e, #8cc9f0);
 		}
 
 		#main table tbody tr {
@@ -3783,3 +3789,34 @@ input, select, textarea {
 			}
 
 		}
+
+	#skills i {
+		color: #446981;
+		font-size: 60px;
+	}
+
+	#skills p {
+		font-weight: bold;
+		color: #446981;
+		font-size: 14px;
+	}
+
+	.iconify {
+		width: 60px;
+		height: 60px;
+		filter: grayscale(80%);
+		filter: sepia(70%) hue-rotate(260deg) saturate(280%);
+	}
+
+	.skills-icons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.skills-icons > #col {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around
+		/* flex-direction: column; */
+
+	}
