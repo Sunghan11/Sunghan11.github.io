@@ -3171,6 +3171,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					width: 10%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3180,7 +3181,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 2em 4em 3em 4em ;
 				}
 
 		}
@@ -3888,6 +3889,14 @@ input, select, textarea {
 		color: #747272;
 	}
 
+	#live-link:hover {
+		background-color: rgba(222, 222, 222, 0.25);
+	}
+
+	#git-hub-link:hover {
+		background-color: rgba(222, 222, 222, 0.25);
+	}
+
 	#git-hub-link {
 		border: 1px solid #adadad;
 		padding: 10px 25px;
@@ -3899,4 +3908,9 @@ input, select, textarea {
 
 	.spotlight2 .image {
 		margin: auto;
+	}
+
+	#tech {
+		font-size: 13px;
+		font-weight: bold;
 	}
