@@ -3871,3 +3871,32 @@ input, select, textarea {
 		/* flex-direction: column; */
 
 	}
+
+	.projects-links {
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		margin: auto;
+	}
+
+	#live-link {
+		border: 1px solid #adadad;
+		padding: 10px 25px;
+		border-radius: 20px;
+		font-size: 13px;
+		font-weight: bold;
+		color: #747272;
+	}
+
+	#git-hub-link {
+		border: 1px solid #adadad;
+		padding: 10px 25px;
+		border-radius: 20px;
+		font-size: 13px;
+		font-weight: bold;
+		color: #747272;
+	}
+
+	.spotlight2 .image {
+		margin: auto;
+	}
